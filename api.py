@@ -34,7 +34,10 @@ def log(string, logs_id=None):
     line = datetime.now().strftime("%m/%d/%Y %H:%M:%S") + ": " + string + "<br>"
     with open(filename, "a+", encoding="utf-8") as f:
         f.write(line)
-    
+
+@app.route("/")
+def github_redirect():
+    return redirect('https://github.com/Luois45/VRChat-IP-Grabber')
 
 @app.route('/health')
 def health_check():
