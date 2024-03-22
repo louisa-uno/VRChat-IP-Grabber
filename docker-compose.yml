@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+    api:
+        image: vrchat-ip-grabber
+        ports:
+            - target: 3926
+              published: 3926
+              mode: host
+        restart: unless-stopped
+        healthcheck:
+            test: ["CMD", "curl", "-f", "http://localhost:3926/health"]
+            interval: 10s
+            timeout: 5s
