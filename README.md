@@ -2,6 +2,9 @@
 
 This repository hosts a publicly accessible web application designed to facilitate specific functionalities, primarily IP address retrieval and video serving.
 
+> [!IMPORTANT]
+> This issue remains in VRChat and I predict it won't be fixed soon. If VRChat resolves it (without disabling untrusted URLs), please submit a PR to archive this repo. :)
+
 > [!CAUTION]
 > This application is provided for educational purposes only. Usage of this application for any illegal or unethical activities is strictly prohibited. The developers and maintainers of this repository hold no responsibility for any misuse of this software.
 
